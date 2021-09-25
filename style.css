@@ -9,16 +9,8 @@
   section {
     background-color: #F4F4F4;
   }
-  a:link {
+  a {
     color: #AAAAAA;
-    text-decoration: underline;
-  }
-  a:visited {
-    color: #BBBBBB;
-    text-decoration: underline;
-  }
-  a:hover {
-    font-weight: #818181;
     text-decoration: underline;
   }
   h1 {
