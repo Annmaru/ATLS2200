@@ -21,6 +21,9 @@
     color: #818181;
     text-decoration: underline;
   }
+  hr{
+    color: #005D4B
+  }
   h1 {
     font-family: 'Saira Stencil One', cursive;
     font-weight: 600;

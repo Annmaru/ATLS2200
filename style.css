@@ -9,9 +9,20 @@
   section {
     background-color: #F4F4F4;
   }
-  a {
+  a:link {
     color: #AAAAAA;
     text-decoration: underline;
+  }
+  a:visited{
+    color: #BBBBBB;
+    text-decoration: underline;
+  }
+  a:hover {
+    color: #818181;
+    text-decoration: underline;
+  }
+  hr{
+    color: #005D4B
   }
   h1 {
     font-family: 'Saira Stencil One', cursive;
