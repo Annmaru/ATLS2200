@@ -1,35 +1,43 @@
   body {
-    font-family: 'Courier New', monospace;
+    font-family: 'Saira Condensed', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    margin-left: 30px;
+    margin-left: 50px;
     color: #005D4B;
   }
   section {
     background-color: #F4F4F4;
   }
-  a {
+  a:link {
     color: #AAAAAA;
     text-decoration: underline;
   }
+  a:visited{
+    color: #BBBBBB;
+    text-decoration: underline;
+  }
+  a:hover {
+    color: #818181;
+    text-decoration: underline;
+  }
   h1 {
-    font-family: 'Courier New', monospace;
+    font-family: 'Saira Stencil One', cursive;
     font-weight: 600;
     font-size: 80px;
   }
   h2 {
-    font-family: 'Courier New', monospace;
+    font-family: 'Saira Stencil One', cursive;
     font-weight: 600;
     font-size: 60px;
   }
   h3 {
-    font-family: 'Courier New', monospace;
+    font-family: 'Saira Stencil One', cursive;
     font-weight: 600;
     font-size: 50px;
   }
   h4 {
-    font-family: 'Courier New', monospace;
+    font-family: 'Saira Stencil One', cursive;
     font-weight: 600;
     font-size: 40px;
   }
