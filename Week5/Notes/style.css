@@ -1,0 +1,75 @@
+  body {
+    font-family: arial;
+    color: rgb(100,100,100);
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  #second {
+    font-weight:bold;
+  }
+
+  h1 {
+    color: black !important;
+    <!-- use !important only if you absolutely have to -->
+    border: solid red 1px;
+  }
+
+  .grey {
+    color: rgb(100,100,100);
+  }
+
+  .background {
+    background-color: rgb(225,225,225);
+  }
+
+  p.background {
+    color: red;
+  }
+
+  .background p{
+    color: red;
+  }
+
+  span {
+    color: blue;
+    font-weight: bold;
+  }
+
+  #dashed {
+    border: dashed rgb(225,225,0) 2px;
+  }
+
+  #dotted {
+    border: dotted rgb(225,225,0) 2px;
+  }
+
+  #double {
+    border: double rgb(225,225,0) 2px;
+  }
+
+  #groove {
+    border: groove rgb(225,225,0) 2px;
+  }
+
+  #ridge {
+    border: ridge rgb(225,225,0) 2px;
+  }
+
+  #solid {
+    border: solid rgb(225,225,0) 2px;
+  }
+
+  #two {
+    border: solid black 1px;
+    background-color: blue;
+    margin: 50px;
+    padding: 50px;
+    /* padding-left: 4vw;
+    padding-top: 10vh
+    padding: top right bottom left; */
+    padding: 30px 0px 30px 0px;
+    margin: 0px 30px 0px 30px;
+  }
