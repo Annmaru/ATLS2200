@@ -5,10 +5,13 @@
     font-size: 25px;
     color: white;
     font-style: bold;
+    text-align: center;
+    background-image: url('Assets/vbs.jpeg');
   }
   img {
     width: 50vw;
     margin: 50px;
+    text-align: center;
   }
   #header {
     background-color: #D291BC;
@@ -20,6 +23,7 @@
     font-family: 'Gemunu Libre', sans-serif;
     font-style: normal;
     font-weight: 400;
+    text-align: center;
   }
   #double {
     border: double #E0BBE4 2px;
