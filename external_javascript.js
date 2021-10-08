@@ -1,4 +1,11 @@
 
+document.getElementById("Hatsune").addEventListener("click", Hatsune);
+
+function Hatsune(){
+  document.getElementById("c1").innerHTML = "Miku Hatsune is a guest singer with VBS. She has a new style and everything!";
+  document.getElementById("image1").src = "Assets/VividBADSQUAD.png";
+}
+
 document.getElementById("Kohane").addEventListener("click", Kohane);
 
 function Kohane(){
