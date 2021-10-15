@@ -5,16 +5,34 @@
   <head>
     <title>Quotes From My Discord</title>
     <link rel = "stylesheet" href = "style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Kanit:wght@500&display=swap" rel="stylesheet">
   </head>
 
   <body>
+    <section>
+      <h1 id = "offtopic">Click the button below to change me!</h1>
+      <button id="newquote">Hi, I'm a button.</button>
+    </section>
 
+    <script>
+      const quotes = ["I'm the Boar King! King of the Boars!", "Your body sucks at being a body.", "C h e e s e c a k e", "Hypothermia doesn’t care that you’re sexy", "I’m not saying he might be a narcissist, but he’s definitely a narcissist.", "Sometimes you just saddle a wolf. Not a horse. A wolf.", "I'm the definition of a war crime.", "What is the point of love if there are no legs.", "Love me some feral frat boy.", "Vitamin water is an excellent snack.", "Look at my rocks.", "Those are very nice rocks.", "He’s the type of person to think that women are a social construct.", "In the end, there will be an end.", "Ho? ~Simom, Seaworld, 2021", "Behold, my audience! <em>he produces a cabbage</em> ...an animal.", "this place gets less and less impressive the more steps I take", "Then go play Mario party you vitamin d deficient rodeo clown", "Why are beds so nice? Beds are so nice."];
+      console.log(quotes.length);
+      let quotecount = 0;
 
+      document.getElementById("newquote").addEventListener("click", buttonClicked);
+
+      function buttonClicked(){
+        document.getElementById("offtopic").innerHTML = quotes[quotecount];
+        if(quotecount >= quotes.length-1){
+          quotecount = 0;
+        }else{
+          quotecount++;
+      }
+
+      }
+    </script>
 
   </body
 
-  <style>
-    const quotes = ["I'm the Boar King! King of the Boars!", "Your body sucks at being a body.", “Can I have cream cheese?”, "C h e e s e c a k e",]
-  </style>
 
 </html>
