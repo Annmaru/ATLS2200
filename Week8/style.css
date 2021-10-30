@@ -1,0 +1,78 @@
+body{
+  font-family: 'Ruluko', sans-serif;
+  font-size: 25px;
+  color: #FFB037;
+  background-color: #FFB037;
+}
+
+h1{
+  font-family: 'Ruslan Display', cursive;
+  font-size: 70px;
+  color: #FFE268;
+}
+
+h2{
+  font-family: 'Ruslan Display', cursive;
+  font-size: 60px;
+  color: #FFE268;
+}
+
+
+hr{
+  border: solid #FFE268 3px;
+}
+
+img{
+    width: 50vw;
+    margin: 50px;
+    border: solid #FFE268 3px;
+}
+
+#emblem {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15vw;
+  border: none;
+}
+
+#day{
+  background-color: #364547;
+  margin: 50px;
+  padding: 30px;
+  border: solid #FFE268 5px;
+  text-align: center;
+}
+
+#todo{
+  background-color: #2F5D62;
+  margin: 50px;
+  padding: 30px;
+  border: solid #FFE268 5px;
+}
+button {
+  background-color: #FFE268;
+  border: none;
+  color: #364547;
+  font-family: 'Ruslan Display', cursive;
+  padding: 32px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.quote {
+  color: #FFE268;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #FFB037;
+  color: #364547;
+  border: solid #FFE268 10px;
+}

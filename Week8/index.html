@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang = "en" dir = "ltr">
+
+  <head>
+    <title>Self-care Menu</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ruluko&family=Ruslan+Display&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <img alt="icon" src="Assets/icon.png" id="emblem">
+    <section id="day">
+      <h1 id="heading">Sunday</h1>
+      <hr>
+      <button id="sun" onclick="sun()">Sunday</button>
+      <button id="mon" onclick="mon()">Monday</button>
+      <button id="tues" onclick="tues()">Tuesday</button>
+      <button id="wed" onclick="wed()">Wednesday</button>
+      <button id="thurs" onclick="thurs()">Thursday</button>
+      <button id="fri" onclick="fri()">Friday</button>
+      <button id="sat" onclick="sat()">Saturday</button>
+    </section>
+
+    <section id="todo">
+      <h2>Today's To-Do List:</h2>
+        <input type="checkbox" id="task1" onclick="ischecked1()"/>
+          <span  class="checkmark"></span>
+          <label class="tasks">Sleep in and relax</label><br>
+          <p class="quote" style=display:none>Yay! You did it!</p>
+        <input type="checkbox" id="task2" onclick="ischecked2()"/>
+          <span  class="checkmark"></span>
+          <label class="tasks">Have brunch</label><br>
+          <p class="quote" style=display:none>Good job! Keep going!</p>
+        <input type="checkbox" id="task3" onclick="ischecked3()"/>
+          <span  class="checkmark"></span>
+          <label class="tasks">Complete class assignments due tomorrow</label><br>
+          <p class="quote" style=display:none>You're doing amazing, sweetie!</p>
+        <input type="checkbox" id="task4" onclick="ischecked4()"/>
+          <span  class="checkmark"></span>
+          <label class="tasks">Dinner time!</label><br>
+          <p class="quote" style=display:none>Let's gooooooo!</p>
+        <input type="checkbox" id="task5" onclick="ischecked5()"/>
+          <span  class="checkmark"></span>
+          <label class="tasks">Have yourself a snack</label><br>
+          <p class="quote" style=display:none>Victory is yours!</p>
+        <img alt="closed eyed fox" src="Assets/fox1.jpeg" id="image">
+    </section>
+
+        <script src="external_javascript.js"></script>
+  </body>
+
+</html>
