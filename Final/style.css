@@ -12,7 +12,7 @@
     width: 50vw;
     margin: 20px;
     text-align: center;
-    visibility: hidden;
+    visibility: visible;
   }
 
   #header {
