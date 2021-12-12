@@ -3,7 +3,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
-    color: #1E5128;
+    color: #49BC67;
     text-align: center;
     background-color: black;
   }
@@ -17,7 +17,7 @@
 
   #header {
     background-color: #191A19;
-    color: #1E5128;
+    color: #49BC67;
     font-size: 80px;
     /* padding: top right bottom left; */
     padding: 10px 30px 10px 30px;
@@ -32,6 +32,7 @@
       background-color: #191A19;
       padding: 10px 30px 10px 30px;
       margin: 10px 30px 0px 30px;
+      border: bold #49BC67 3px;
   }
   hr {
     border: dotted #D8E9A8 2px;
