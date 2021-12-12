@@ -1,0 +1,68 @@
+  body {
+    font-family: 'Acme', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #1E5128;
+    text-align: center;
+    background-color: black;
+  }
+
+  img {
+    width: 50vw;
+    margin: 20px;
+    text-align: center;
+    visibility: hidden;
+  }
+
+  #header {
+    background-color: #191A19;
+    color: #1E5128;
+    font-size: 80px;
+    /* padding: top right bottom left; */
+    padding: 10px 30px 10px 30px;
+    margin: 10px 30px 0px 30px;
+    font-family: 'Staatliches', cursive;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  section {
+      background-color: #191A19;
+      padding: 10px 30px 10px 30px;
+      margin: 10px 30px 0px 30px;
+  }
+  hr {
+    border: dotted #D8E9A8 2px;
+  }
+
+  button {
+    background-color: #4E9F3D;
+    border: none;
+    color: #364547;
+    font-family: 'Ruslan Display', cursive;
+    padding: 32px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  button:hover {
+    background-color: #D8E9A8;
+    color: #364547;
+    border: solid #4E9F3D 3px;
+  }
+
+  #emblem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15vw;
+    border: none;
+  }
